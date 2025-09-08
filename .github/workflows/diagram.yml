@@ -7,7 +7,7 @@ name: Create Code Visualization
 on:
   push:
     branches:
-      - main # This will trigger the action on pushes to the main branch.
+      - master # This will trigger the action on pushes to the main branch.
 
 jobs:
   generate-diagram:
